@@ -1,0 +1,160 @@
+body {
+	font-family: 'Inter', sans-serif;
+	margin: 0;
+}
+
+.btn-primary {
+	font-size: 14px;
+	border-radius: 20px;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+#wrapper {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+#header {
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.custom-container {
+	max-width: 1648px;
+}
+
+.head-area h2 {
+	position: relative;
+}
+
+.head-area h2:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: -9999px;
+	right: -9999px;
+	background: #B0B0B0;
+	height: 0.5px;
+}
+
+.search-form {
+	border-color: #C4C4C4;
+	border-radius: 20px;
+}
+
+.search-form input {
+	height: 32px;
+}
+
+select:focus,
+input:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.search-form input::placeholder {
+  color: #9D9D9D;
+  opacity: 1; /* Firefox */
+}
+
+.search-form input::-ms-input-placeholder { /* Edge 12-18 */
+  color: #9D9D9D;
+}
+
+.dashboard-slider .board {
+	border-radius: 6px 6px 0px 0px;
+	background: linear-gradient(to bottom, #c4c4c4 0%,#ffffff 84%,#ffffff 100%);
+	height: 78vh;
+	overflow-y: auto;
+}
+
+.dashboard-slider .head {
+	min-height: 67px;
+}
+
+.dashboard-slider .widget  {
+	border-radius: 6px;
+	border: 1px solid #C4C4C4;
+	overflow: hidden;
+}
+
+.dashboard-slider .top img {
+	min-width: 36px;
+}
+
+.dashboard-slider .top .txt-holder {
+	font-size: 14px;
+	line-height: 1;
+}
+
+.dashboard-slider .top .txt-holder strong {
+	margin: 0 0 7px;
+}
+
+.dashboard-slider .top .txt-holder span {
+	font-size: 12px;
+	color: #4D4D4D;
+}
+
+.dashboard-slider .description {
+	background: #C8E5FC;
+}
+
+.dashboard-slider .description .name {
+	font-size: 14px;
+	color: #000;
+}
+
+.dashboard-slider .description ul {
+	font-size: 12px;
+	color: #4D4D4D;
+}
+
+.member-form .form-group {
+	position: relative;
+}
+
+.member-form .form-group label {
+	position: absolute;
+	top: -8px;
+	left: 14px;
+	display: inline-block;
+	vertical-align: top;
+	background: #fff;
+	font-size: 12px;
+	color: #4D4D4D;
+	font-style: italic;
+}
+
+.member-form .form-group label span {
+	color: #F3212D;
+}
+
+.member-form .form-control,
+.member-form .form-select {
+	font-size: 14px;
+}
+
+.member-form .form-select::placeholder {
+  color: #9D9D9D;
+  opacity: 1; /* Firefox */
+}
+
+.member-form .form-select::-ms-input-placeholder { /* Edge 12-18 */
+  color: #9D9D9D;
+}
+
+@media only screen and (min-width: 767.98px) {
+	.head-area h2:after {
+		display: none;
+	}
+}
