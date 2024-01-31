@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:3000/api/v1';
+const API_BASE_URL = 'https://devcache-1dab1743a0c1.herokuapp.com/api/v1';
 
 // Create an instance of Axios with the base URL
 const api = axios.create({ baseURL: API_BASE_URL });
